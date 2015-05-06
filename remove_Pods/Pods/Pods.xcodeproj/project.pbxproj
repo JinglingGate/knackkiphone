@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0401826B982C4F0A82421DCA /* PLCrashReportStackFrameInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 529D81B603266BF54E13188E /* PLCrashReportStackFrameInfo.h */; };
+		08B52A1E080F22934E74B034 /* PLCrashReportSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 486A6D6E07A1C555CF12AA14 /* PLCrashReportSystemInfo.h */; };
+		0B2B24565F502A42916B6DF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E20932E3B32B44DA0D6388 /* SystemConfiguration.framework */; };
+		1FC967F2E1A4BCAA3239FB4F /* GCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DF1A463FED199C16F27AC1 /* GCAlertView.m */; };
+		254E1968E91948D2661BEA47 /* PLCrashReportTextFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D6E40B014AFB80E0ED6767 /* PLCrashReportTextFormatter.h */; };
+		2B77F6F9221C5E3EF5FCE02F /* PLCrashReportSignalInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D09C5BC281655F968D40AD /* PLCrashReportSignalInfo.h */; };
+		2FFF117AF2B62B3EF823776B /* PLCrashFeatureConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F32241709E8F1C37C382935 /* PLCrashFeatureConfig.h */; };
+		30AB1D02DA58B0B88F920716 /* PLCrashReportSymbolInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EE68F8734A5D861DD8651EAC /* PLCrashReportSymbolInfo.h */; };
+		3D7CBDF021F68A5792E4C531 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC378FD899E8A16413541E70 /* Pods-dummy.m */; };
+		446BB4992F559BA7D8702927 /* PLCrashReportRegisterInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 94296C5B6359FF1B48724463 /* PLCrashReportRegisterInfo.h */; };
+		5725C4283E13469EF8192929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7C2AA639349DEA270EEB50 /* Foundation.framework */; };
+		73089F38D1858A8F4259EF1E /* ABCrashReport.h in Headers */ = {isa = PBXBuildFile; fileRef = F80DF5A24120E25183E2A7CB /* ABCrashReport.h */; };
+		78CE5E33D5DCD1253B4CF428 /* PLCrashReportBinaryImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F161CAA80E7BC30268A822 /* PLCrashReportBinaryImageInfo.h */; };
+		895DCB52FB01FD574FDA563A /* ABNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 813617AA426A75C3F667A230 /* ABNotifier.m */; };
+		8AAB61AE4BCDE75C0127AF9A /* PLCrashReportProcessorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CB38FE0C5B1E72C81B6EC614 /* PLCrashReportProcessorInfo.h */; };
+		8FDBC9B761A041B30DA5C45C /* PLCrashReporterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A71AB706FA9A4FE535D3B67A /* PLCrashReporterConfig.h */; };
+		95DFC6673229AB50D5C55197 /* PLCrashReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 55ACD75F58308FD220BD35F5 /* PLCrashReport.h */; };
+		996570439FAB1C561B02562A /* PLCrashReportApplicationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FAAD3AB97C0843328A15FA9F /* PLCrashReportApplicationInfo.h */; };
+		9CB995EA75CC0D6AFDFEF24C /* PLCrashReportFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBE68E4D352FF27FC4B577D /* PLCrashReportFormatter.h */; };
+		9E474EA1627C270E18EC3794 /* PLCrashNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C860D3F4712D8EC5E2BC65 /* PLCrashNamespace.h */; };
+		A74B6E996BF53B2C8FD86F93 /* PLCrashReportThreadInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EB62EFDA6023407B58BA3C46 /* PLCrashReportThreadInfo.h */; };
+		A9BBF68BEBCFB3F542291A49 /* Pods-Airbrake-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3236FD1BFB2E80338CF4E26 /* Pods-Airbrake-iOS-dummy.m */; };
+		AE43F1B1846CB2F13F4D90B6 /* PLCrashReportExceptionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DB875500DBD3B4922FE324FF /* PLCrashReportExceptionInfo.h */; };
+		AFB89D60CD43B219732EE4D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7C2AA639349DEA270EEB50 /* Foundation.framework */; };
+		BF2E137DEB6CDAC09177C21F /* ABNotifierFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11265C331C2A6F47ACDE6F /* ABNotifierFunctions.m */; };
+		C089C9EA703FE29A50365E15 /* ABNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = A7298BF9EC4045A57D5AE0E3 /* ABNotice.m */; };
+		C1CD051E2E96C516FF84F296 /* ABNotifierFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28032524C02D7B2C272BD965 /* ABNotifierFunctions.h */; };
+		C7ABA2469DC97BE888D428E8 /* ABNotifierDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A135BCE3A38BE653A859FA08 /* ABNotifierDelegate.h */; };
+		C843828821EA873CB5C08F8C /* PLCrashReportProcessInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4F1A32F2344199CA5D3D22 /* PLCrashReportProcessInfo.h */; };
+		CADAA062C9BEE6D1A3DD002D /* PLCrashAsyncSignalInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB31F1C1A3711F49405840B5 /* PLCrashAsyncSignalInfo.h */; };
+		CE5B09DDAE31C969E7505AE5 /* PLCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2F6B077AE1834D14465C0A /* PLCrashReporter.h */; };
+		D5909E7633F9DE6E320365DC /* ABNotice.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5771E72722D876F7E14BF6 /* ABNotice.h */; };
+		D7D2ED4F688FF08C269556D7 /* ABCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B4DDE410FC601D55B5AAE3 /* ABCrashReport.m */; };
+		DDD759543347447DB0C21D3B /* CrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5450F443461987CDD75B21A5 /* CrashReporter.h */; };
+		DF72166107CD65221D343C0A /* PLCrashReportMachExceptionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF22D92F9DEA6EEF804077F /* PLCrashReportMachExceptionInfo.h */; };
+		E684F35B4E24F1BB9184782F /* PLCrashReportMachineInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B92AAC34A0C46BEC6A3E20 /* PLCrashReportMachineInfo.h */; };
+		F3CF2A085B637F8A071A30E9 /* ABNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 24829EBE2C6F328FA5503474 /* ABNotifier.h */; };
+		F9ED33FFFD06CF9677E2C7DF /* GCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB65F2AEC2D1F863B7CB1A6 /* GCAlertView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F60CD02038DDC8B75B8B3A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCBF05D027987E984268B78A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335BC2D6C296903704641B9B;
+			remoteInfo = "Pods-Airbrake-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DF1A463FED199C16F27AC1 /* GCAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCAlertView.m; path = Airbrake/gcalertview/GCAlertView.m; sourceTree = "<group>"; };
+		043E247BC71C94FAC7060FD7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E20932E3B32B44DA0D6388 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		0EEEC2B2607FB155F808E1E5 /* ABNotifier.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ABNotifier.bundle; path = Airbrake/notifier/ABNotifier.bundle; sourceTree = "<group>"; };
+		13B097F47A89B12721ACAE3C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		161F398D425F71DCFADC302B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		24829EBE2C6F328FA5503474 /* ABNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABNotifier.h; path = Airbrake/notifier/ABNotifier.h; sourceTree = "<group>"; };
+		28032524C02D7B2C272BD965 /* ABNotifierFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABNotifierFunctions.h; path = Airbrake/notifier/ABNotifierFunctions.h; sourceTree = "<group>"; };
+		2E4F1A32F2344199CA5D3D22 /* PLCrashReportProcessInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportProcessInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportProcessInfo.h; sourceTree = "<group>"; };
+		3CBE68E4D352FF27FC4B577D /* PLCrashReportFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportFormatter.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportFormatter.h; sourceTree = "<group>"; };
+		41C860D3F4712D8EC5E2BC65 /* PLCrashNamespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashNamespace.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashNamespace.h; sourceTree = "<group>"; };
+		486A6D6E07A1C555CF12AA14 /* PLCrashReportSystemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportSystemInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportSystemInfo.h; sourceTree = "<group>"; };
+		4EB65F2AEC2D1F863B7CB1A6 /* GCAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCAlertView.h; path = Airbrake/gcalertview/GCAlertView.h; sourceTree = "<group>"; };
+		529D81B603266BF54E13188E /* PLCrashReportStackFrameInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportStackFrameInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportStackFrameInfo.h; sourceTree = "<group>"; };
+		5450F443461987CDD75B21A5 /* CrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CrashReporter.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/CrashReporter.h; sourceTree = "<group>"; };
+		55ACD75F58308FD220BD35F5 /* PLCrashReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReport.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReport.h; sourceTree = "<group>"; };
+		676B49E153703220C6335A2A /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		6D7C2AA639349DEA270EEB50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8057B3FE130D2B9034B1B757 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = Airbrake/CrashReporter.framework; sourceTree = "<group>"; };
+		813617AA426A75C3F667A230 /* ABNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABNotifier.m; path = Airbrake/notifier/ABNotifier.m; sourceTree = "<group>"; };
+		8D5771E72722D876F7E14BF6 /* ABNotice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABNotice.h; path = Airbrake/notifier/ABNotice.h; sourceTree = "<group>"; };
+		94296C5B6359FF1B48724463 /* PLCrashReportRegisterInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportRegisterInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportRegisterInfo.h; sourceTree = "<group>"; };
+		95B4DDE410FC601D55B5AAE3 /* ABCrashReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCrashReport.m; path = Airbrake/notifier/ABCrashReport.m; sourceTree = "<group>"; };
+		97F161CAA80E7BC30268A822 /* PLCrashReportBinaryImageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportBinaryImageInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportBinaryImageInfo.h; sourceTree = "<group>"; };
+		9A59BD7E8C1028A7231CEEF2 /* Pods-Airbrake-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Airbrake-iOS-prefix.pch"; sourceTree = "<group>"; };
+		9F32241709E8F1C37C382935 /* PLCrashFeatureConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashFeatureConfig.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashFeatureConfig.h; sourceTree = "<group>"; };
+		A135BCE3A38BE653A859FA08 /* ABNotifierDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABNotifierDelegate.h; path = Airbrake/notifier/ABNotifierDelegate.h; sourceTree = "<group>"; };
+		A3236FD1BFB2E80338CF4E26 /* Pods-Airbrake-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Airbrake-iOS-dummy.m"; sourceTree = "<group>"; };
+		A71AB706FA9A4FE535D3B67A /* PLCrashReporterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReporterConfig.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReporterConfig.h; sourceTree = "<group>"; };
+		A7298BF9EC4045A57D5AE0E3 /* ABNotice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABNotice.m; path = Airbrake/notifier/ABNotice.m; sourceTree = "<group>"; };
+		AD2F6B077AE1834D14465C0A /* PLCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReporter.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReporter.h; sourceTree = "<group>"; };
+		B2A4122A2D7DF86CC0A08BE2 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		B2B92AAC34A0C46BEC6A3E20 /* PLCrashReportMachineInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportMachineInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportMachineInfo.h; sourceTree = "<group>"; };
+		BB31F1C1A3711F49405840B5 /* PLCrashAsyncSignalInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashAsyncSignalInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashAsyncSignalInfo.h; sourceTree = "<group>"; };
+		C6D09C5BC281655F968D40AD /* PLCrashReportSignalInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportSignalInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportSignalInfo.h; sourceTree = "<group>"; };
+		C8B5DE69823D21167E1EB827 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB38FE0C5B1E72C81B6EC614 /* PLCrashReportProcessorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportProcessorInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportProcessorInfo.h; sourceTree = "<group>"; };
+		CC55903D4406BB4F263BEF59 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DB875500DBD3B4922FE324FF /* PLCrashReportExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportExceptionInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportExceptionInfo.h; sourceTree = "<group>"; };
+		DC1F4445CFBCFBD4627F2DE8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC378FD899E8A16413541E70 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E1895AAA6758B5B0E5EAEA86 /* Pods-Airbrake-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Airbrake-iOS.xcconfig"; sourceTree = "<group>"; };
+		E5D6E40B014AFB80E0ED6767 /* PLCrashReportTextFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportTextFormatter.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportTextFormatter.h; sourceTree = "<group>"; };
+		E63F57CB331A487A8D55B1DB /* libPods-Airbrake-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbrake-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB62EFDA6023407B58BA3C46 /* PLCrashReportThreadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportThreadInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportThreadInfo.h; sourceTree = "<group>"; };
+		EE68F8734A5D861DD8651EAC /* PLCrashReportSymbolInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportSymbolInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportSymbolInfo.h; sourceTree = "<group>"; };
+		EF7312CED4C350DB96399A7D /* Pods-Airbrake-iOS-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Airbrake-iOS-Private.xcconfig"; sourceTree = "<group>"; };
+		F80DF5A24120E25183E2A7CB /* ABCrashReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCrashReport.h; path = Airbrake/notifier/ABCrashReport.h; sourceTree = "<group>"; };
+		FAAD3AB97C0843328A15FA9F /* PLCrashReportApplicationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportApplicationInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportApplicationInfo.h; sourceTree = "<group>"; };
+		FDF22D92F9DEA6EEF804077F /* PLCrashReportMachExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLCrashReportMachExceptionInfo.h; path = Airbrake/CrashReporter.framework/Versions/A/Headers/PLCrashReportMachExceptionInfo.h; sourceTree = "<group>"; };
+		FE11265C331C2A6F47ACDE6F /* ABNotifierFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABNotifierFunctions.m; path = Airbrake/notifier/ABNotifierFunctions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D82D7F165F0476979BE64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB89D60CD43B219732EE4D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EFE0D4B36FDCF56AA9C259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5725C4283E13469EF8192929 /* Foundation.framework in Frameworks */,
+				0B2B24565F502A42916B6DF6 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00628572C528E6A05407ADEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1895AAA6758B5B0E5EAEA86 /* Pods-Airbrake-iOS.xcconfig */,
+				EF7312CED4C350DB96399A7D /* Pods-Airbrake-iOS-Private.xcconfig */,
+				A3236FD1BFB2E80338CF4E26 /* Pods-Airbrake-iOS-dummy.m */,
+				9A59BD7E8C1028A7231CEEF2 /* Pods-Airbrake-iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Airbrake-iOS";
+			sourceTree = "<group>";
+		};
+		1067C275434C0A7CA9C4C60F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8B5DE69823D21167E1EB827 /* Pods-acknowledgements.markdown */,
+				DC1F4445CFBCFBD4627F2DE8 /* Pods-acknowledgements.plist */,
+				DC378FD899E8A16413541E70 /* Pods-dummy.m */,
+				676B49E153703220C6335A2A /* Pods-environment.h */,
+				B2A4122A2D7DF86CC0A08BE2 /* Pods-resources.sh */,
+				161F398D425F71DCFADC302B /* Pods.debug.xcconfig */,
+				CC55903D4406BB4F263BEF59 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		206FF408C4E8F41769C8C21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043E247BC71C94FAC7060FD7 /* libPods.a */,
+				E63F57CB331A487A8D55B1DB /* libPods-Airbrake-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37854B88599A82060A0BCCCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8057B3FE130D2B9034B1B757 /* CrashReporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48CC7E0581FA839D9199A247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF51BCE458F5871EB7FFE0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67C5CE7CC0CCCA7048F2BC26 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1067C275434C0A7CA9C4C60F /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75442E872A02A5B6074EF0ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0AC144569567C6FC73918 /* Airbrake-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4A0AC144569567C6FC73918 /* Airbrake-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F80DF5A24120E25183E2A7CB /* ABCrashReport.h */,
+				95B4DDE410FC601D55B5AAE3 /* ABCrashReport.m */,
+				8D5771E72722D876F7E14BF6 /* ABNotice.h */,
+				A7298BF9EC4045A57D5AE0E3 /* ABNotice.m */,
+				24829EBE2C6F328FA5503474 /* ABNotifier.h */,
+				813617AA426A75C3F667A230 /* ABNotifier.m */,
+				A135BCE3A38BE653A859FA08 /* ABNotifierDelegate.h */,
+				28032524C02D7B2C272BD965 /* ABNotifierFunctions.h */,
+				FE11265C331C2A6F47ACDE6F /* ABNotifierFunctions.m */,
+				5450F443461987CDD75B21A5 /* CrashReporter.h */,
+				4EB65F2AEC2D1F863B7CB1A6 /* GCAlertView.h */,
+				00DF1A463FED199C16F27AC1 /* GCAlertView.m */,
+				BB31F1C1A3711F49405840B5 /* PLCrashAsyncSignalInfo.h */,
+				9F32241709E8F1C37C382935 /* PLCrashFeatureConfig.h */,
+				41C860D3F4712D8EC5E2BC65 /* PLCrashNamespace.h */,
+				55ACD75F58308FD220BD35F5 /* PLCrashReport.h */,
+				FAAD3AB97C0843328A15FA9F /* PLCrashReportApplicationInfo.h */,
+				97F161CAA80E7BC30268A822 /* PLCrashReportBinaryImageInfo.h */,
+				DB875500DBD3B4922FE324FF /* PLCrashReportExceptionInfo.h */,
+				3CBE68E4D352FF27FC4B577D /* PLCrashReportFormatter.h */,
+				FDF22D92F9DEA6EEF804077F /* PLCrashReportMachExceptionInfo.h */,
+				B2B92AAC34A0C46BEC6A3E20 /* PLCrashReportMachineInfo.h */,
+				2E4F1A32F2344199CA5D3D22 /* PLCrashReportProcessInfo.h */,
+				CB38FE0C5B1E72C81B6EC614 /* PLCrashReportProcessorInfo.h */,
+				94296C5B6359FF1B48724463 /* PLCrashReportRegisterInfo.h */,
+				C6D09C5BC281655F968D40AD /* PLCrashReportSignalInfo.h */,
+				529D81B603266BF54E13188E /* PLCrashReportStackFrameInfo.h */,
+				EE68F8734A5D861DD8651EAC /* PLCrashReportSymbolInfo.h */,
+				486A6D6E07A1C555CF12AA14 /* PLCrashReportSystemInfo.h */,
+				E5D6E40B014AFB80E0ED6767 /* PLCrashReportTextFormatter.h */,
+				EB62EFDA6023407B58BA3C46 /* PLCrashReportThreadInfo.h */,
+				AD2F6B077AE1834D14465C0A /* PLCrashReporter.h */,
+				A71AB706FA9A4FE535D3B67A /* PLCrashReporterConfig.h */,
+				37854B88599A82060A0BCCCE /* Frameworks */,
+				D89EC71217000CB9A12D7F13 /* Resources */,
+				00628572C528E6A05407ADEA /* Support Files */,
+			);
+			path = "Airbrake-iOS";
+			sourceTree = "<group>";
+		};
+		D89EC71217000CB9A12D7F13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEC2B2607FB155F808E1E5 /* ABNotifier.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E1AF51BCE458F5871EB7FFE0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D7C2AA639349DEA270EEB50 /* Foundation.framework */,
+				06E20932E3B32B44DA0D6388 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FAF956B321AF033BCE63CDE8 = {
+			isa = PBXGroup;
+			children = (
+				13B097F47A89B12721ACAE3C /* Podfile */,
+				48CC7E0581FA839D9199A247 /* Frameworks */,
+				75442E872A02A5B6074EF0ED /* Pods */,
+				206FF408C4E8F41769C8C21E /* Products */,
+				67C5CE7CC0CCCA7048F2BC26 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5724BCF22841EEC476837669 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73089F38D1858A8F4259EF1E /* ABCrashReport.h in Headers */,
+				D5909E7633F9DE6E320365DC /* ABNotice.h in Headers */,
+				F3CF2A085B637F8A071A30E9 /* ABNotifier.h in Headers */,
+				C7ABA2469DC97BE888D428E8 /* ABNotifierDelegate.h in Headers */,
+				C1CD051E2E96C516FF84F296 /* ABNotifierFunctions.h in Headers */,
+				DDD759543347447DB0C21D3B /* CrashReporter.h in Headers */,
+				F9ED33FFFD06CF9677E2C7DF /* GCAlertView.h in Headers */,
+				CADAA062C9BEE6D1A3DD002D /* PLCrashAsyncSignalInfo.h in Headers */,
+				2FFF117AF2B62B3EF823776B /* PLCrashFeatureConfig.h in Headers */,
+				9E474EA1627C270E18EC3794 /* PLCrashNamespace.h in Headers */,
+				95DFC6673229AB50D5C55197 /* PLCrashReport.h in Headers */,
+				996570439FAB1C561B02562A /* PLCrashReportApplicationInfo.h in Headers */,
+				78CE5E33D5DCD1253B4CF428 /* PLCrashReportBinaryImageInfo.h in Headers */,
+				AE43F1B1846CB2F13F4D90B6 /* PLCrashReportExceptionInfo.h in Headers */,
+				9CB995EA75CC0D6AFDFEF24C /* PLCrashReportFormatter.h in Headers */,
+				DF72166107CD65221D343C0A /* PLCrashReportMachExceptionInfo.h in Headers */,
+				E684F35B4E24F1BB9184782F /* PLCrashReportMachineInfo.h in Headers */,
+				C843828821EA873CB5C08F8C /* PLCrashReportProcessInfo.h in Headers */,
+				8AAB61AE4BCDE75C0127AF9A /* PLCrashReportProcessorInfo.h in Headers */,
+				446BB4992F559BA7D8702927 /* PLCrashReportRegisterInfo.h in Headers */,
+				2B77F6F9221C5E3EF5FCE02F /* PLCrashReportSignalInfo.h in Headers */,
+				0401826B982C4F0A82421DCA /* PLCrashReportStackFrameInfo.h in Headers */,
+				30AB1D02DA58B0B88F920716 /* PLCrashReportSymbolInfo.h in Headers */,
+				08B52A1E080F22934E74B034 /* PLCrashReportSystemInfo.h in Headers */,
+				254E1968E91948D2661BEA47 /* PLCrashReportTextFormatter.h in Headers */,
+				A74B6E996BF53B2C8FD86F93 /* PLCrashReportThreadInfo.h in Headers */,
+				CE5B09DDAE31C969E7505AE5 /* PLCrashReporter.h in Headers */,
+				8FDBC9B761A041B30DA5C45C /* PLCrashReporterConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04AAFA1220F191ABB52E2BF8 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B19E8B3F0F4C2A0193B01D /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				7E63CB250F2D2EC2418B1F78 /* Sources */,
+				23D82D7F165F0476979BE64D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E546B937D559CF41225975E6 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 043E247BC71C94FAC7060FD7 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		335BC2D6C296903704641B9B /* Pods-Airbrake-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD2E6222610CDA0D21E8DEF /* Build configuration list for PBXNativeTarget "Pods-Airbrake-iOS" */;
+			buildPhases = (
+				794E29A236C7C814837ACB74 /* Sources */,
+				B1EFE0D4B36FDCF56AA9C259 /* Frameworks */,
+				5724BCF22841EEC476837669 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Airbrake-iOS";
+			productName = "Pods-Airbrake-iOS";
+			productReference = E63F57CB331A487A8D55B1DB /* libPods-Airbrake-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCBF05D027987E984268B78A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 07891A72369AA4E04A588F68 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF956B321AF033BCE63CDE8;
+			productRefGroup = 206FF408C4E8F41769C8C21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AAFA1220F191ABB52E2BF8 /* Pods */,
+				335BC2D6C296903704641B9B /* Pods-Airbrake-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794E29A236C7C814837ACB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D2ED4F688FF08C269556D7 /* ABCrashReport.m in Sources */,
+				C089C9EA703FE29A50365E15 /* ABNotice.m in Sources */,
+				895DCB52FB01FD574FDA563A /* ABNotifier.m in Sources */,
+				BF2E137DEB6CDAC09177C21F /* ABNotifierFunctions.m in Sources */,
+				1FC967F2E1A4BCAA3239FB4F /* GCAlertView.m in Sources */,
+				A9BBF68BEBCFB3F542291A49 /* Pods-Airbrake-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E63CB250F2D2EC2418B1F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7CBDF021F68A5792E4C531 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E546B937D559CF41225975E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Airbrake-iOS";
+			target = 335BC2D6C296903704641B9B /* Pods-Airbrake-iOS */;
+			targetProxy = F60CD02038DDC8B75B8B3A8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DB745F730B3C6E85210F714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC55903D4406BB4F263BEF59 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		339FF9E28F229FC30196A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7312CED4C350DB96399A7D /* Pods-Airbrake-iOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Airbrake-iOS/Pods-Airbrake-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F4A83F8C00BEB1D80114AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161F398D425F71DCFADC302B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D179BBB6581D630A2D0617F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5FD565D674D9A23C078F392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED188EC15B904E8945AB47AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7312CED4C350DB96399A7D /* Pods-Airbrake-iOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Airbrake-iOS/Pods-Airbrake-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07891A72369AA4E04A588F68 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FD565D674D9A23C078F392 /* Debug */,
+				9D179BBB6581D630A2D0617F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B19E8B3F0F4C2A0193B01D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4A83F8C00BEB1D80114AAC /* Debug */,
+				2DB745F730B3C6E85210F714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD2E6222610CDA0D21E8DEF /* Build configuration list for PBXNativeTarget "Pods-Airbrake-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED188EC15B904E8945AB47AD /* Debug */,
+				339FF9E28F229FC30196A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCBF05D027987E984268B78A /* Project object */;
+}

@@ -1,0 +1,10 @@
+PODS:
+  - Airbrake-iOS (4.2.1)
+
+DEPENDENCIES:
+  - Airbrake-iOS (~> 4.2.1)
+
+SPEC CHECKSUMS:
+  Airbrake-iOS: 8fee76e207f18c804f4b0117ed90184b2f895967
+
+COCOAPODS: 0.36.4

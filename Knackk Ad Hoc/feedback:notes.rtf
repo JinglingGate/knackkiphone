@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\margl1440\margr1440\vieww22180\viewh10300\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\f0\fs26 \cf2 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Gmail/hotmail/yahoo etc. still works in login instead of being locked. \'a0 (screenshots 1 and 2 below) - Fixed\'85with new .ipa\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Linkedin Login didn't work as you mentioned so I couldn't test whether the Safari redirect issue is fixed.\'a0 - this was a result of trying to create a new .ipa outside of dev team (fixed)\
+\pard\tx720\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+\
+\
+Emma\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Still follow/unfollow bug on Notifications. (screenshot 4 below) - don\'92t have this problem would like to see and probably need to work out with Emma (backend)\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+De-activating a user didn't retain their data/content on frontend.\'a0 It did on backend, so when I re-activated them it was normal again.\'a0 But in frontend, it 1) completely removed posts they'd written and 2) removed pic/name on comments they'd written. Is there a way to retain everything about them in frontend feed, except of course they can't be 'followed'? (It's possible that the way you understood this is different from what was in my head.) - dunno about this probably a backend issue\
+\pard\tx720\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+If I got to Error screen, undefined error when trying to edit/save email address (same problem as before). \'a0(screenshot 3 below)\'a0- can\'92t see image, perhaps fixed by above\
+\pard\pardeftab720
+
+\b \cf2 \expnd0\expndtw0\kerning0
+New errors not in production version:
+\b0 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls4\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Registering a new company (as 1st time user for that company) -- couldn't get past the company register screen.\'a0 Didn't do anything. \'a0(screenshot 5 below) - didn\'92t have this problem\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+For some users, it's showing blank space in place of their profile pic (even though they have a profile pic).\'a0 For instance, Ish.\'a0 He has a pic but it won't show up.\'a0 In the staging server, there is some weird text where his pic should be, which is probably causing the problem. \'a0(screenshot 6 below) - I see on the backend and Ish doesn\'92t seem to have a pic in the db\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Error when tried to invite using the manual invite button (screenshot 7 below) - need to see this, might again be due to new server/db\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Invite via addressbook didn't do anything when I pressed the invite button, so no way for me to know if it worked. In production version, it goes back to main screen so I know it worked. \'a0(actually it should probably go back to the previous 'Invite Co-workers' screen)\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Since I couldn't test the invite function, I couldn't see whether the Invite analytics in backend works.\
+}
